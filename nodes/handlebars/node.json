@@ -1,0 +1,21 @@
+{
+  "name": "handlebars",
+  "ns": "data",
+  "description": "Handlebars",
+  "ports": {
+    "input": {
+      "handlebars": {
+        "title": "Handlebars",
+        "type": "string",
+        "format": "handlebars",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

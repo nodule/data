@@ -1,0 +1,21 @@
+{
+  "name": "sql",
+  "ns": "data",
+  "description": "SQL",
+  "ports": {
+    "input": {
+      "sql": {
+        "title": "SQL",
+        "type": "string",
+        "format": "sql",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

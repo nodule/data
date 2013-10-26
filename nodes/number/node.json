@@ -1,0 +1,20 @@
+{
+  "name": "number",
+  "ns": "data",
+  "description": "Number",
+  "ports": {
+    "input": {
+      "number": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "svg",
+  "ns": "data",
+  "description": "SVG",
+  "ports": {
+    "input": {
+      "svg": {
+        "title": "SVG",
+        "type": "string",
+        "format": "svg",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

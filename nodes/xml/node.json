@@ -1,0 +1,21 @@
+{
+  "name": "xml",
+  "ns": "data",
+  "description": "XML",
+  "ports": {
+    "input": {
+      "xml": {
+        "title": "XML",
+        "type": "string",
+        "format": "xml",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

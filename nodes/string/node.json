@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "ns": "data",
+  "description": "String",
+  "ports": {
+    "input": {
+      "string": {
+        "title": "String",
+        "type": "string",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "markdown",
+  "ns": "data",
+  "description": "Markdown",
+  "ports": {
+    "input": {
+      "markdown": {
+        "title": "Markdown",
+        "type": "string",
+        "format": "markdown",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

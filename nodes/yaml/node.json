@@ -1,0 +1,21 @@
+{
+  "name": "yaml",
+  "ns": "data",
+  "description": "yaml",
+  "ports": {
+    "input": {
+      "yaml": {
+        "title": "yaml",
+        "type": "string",
+        "format": "yaml",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

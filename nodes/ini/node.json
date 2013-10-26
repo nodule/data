@@ -1,0 +1,21 @@
+{
+  "name": "ini",
+  "ns": "data",
+  "description": "ini",
+  "ports": {
+    "input": {
+      "ini": {
+        "title": "ini",
+        "type": "string",
+        "format": "ini",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "less",
+  "ns": "data",
+  "description": "LESS",
+  "ports": {
+    "input": {
+      "less": {
+        "title": "LESS",
+        "type": "string",
+        "format": "less",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

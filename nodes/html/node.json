@@ -1,0 +1,21 @@
+{
+  "name": "text",
+  "ns": "data",
+  "description": "Text",
+  "ports": {
+    "input": {
+      "text": {
+        "title": "Text",
+        "type": "string",
+        "format": "text",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

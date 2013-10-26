@@ -1,0 +1,20 @@
+{
+  "name": "boolean",
+  "ns": "data",
+  "description": "Boolean",
+  "ports": {
+    "input": {
+      "boolean": {
+        "title": "Boolean",
+        "type": "boolean",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "boolean"
+      }
+    }
+  }
+}

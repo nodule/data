@@ -1,0 +1,21 @@
+{
+  "name": "json",
+  "ns": "data",
+  "description": "JSON",
+  "ports": {
+    "input": {
+      "json": {
+        "title": "JSON",
+        "type": "string",
+        "format": "json",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

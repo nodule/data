@@ -1,0 +1,21 @@
+{
+  "name": "jade",
+  "ns": "data",
+  "description": "Jade",
+  "ports": {
+    "input": {
+      "jade": {
+        "title": "Jade",
+        "type": "string",
+        "format": "jade",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "textile",
+  "ns": "data",
+  "description": "Textile",
+  "ports": {
+    "input": {
+      "textile": {
+        "title": "Textile",
+        "type": "string",
+        "format": "textile",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

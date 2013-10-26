@@ -1,0 +1,21 @@
+{
+  "name": "haml",
+  "ns": "data",
+  "description": "haml",
+  "ports": {
+    "input": {
+      "haml": {
+        "title": "haml",
+        "type": "string",
+        "format": "haml",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}

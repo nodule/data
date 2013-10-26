@@ -1,0 +1,21 @@
+{
+  "name": "css",
+  "ns": "data",
+  "description": "CSS",
+  "ports": {
+    "input": {
+      "css": {
+        "title": "CSS",
+        "type": "string",
+        "format": "css",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "string"
+      }
+    }
+  }
+}
