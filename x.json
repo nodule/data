@@ -1,0 +1,383 @@
+{
+  "name": "data",
+  "description": "Data nodes for Chiχ",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/data.git"
+  },
+  "nodes": [
+    {
+      "ports": {
+        "input": {
+          "boolean": {
+            "title": "Boolean",
+            "type": "boolean",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "boolean"
+          }
+        }
+      },
+      "description": "Boolean",
+      "ns": "data",
+      "name": "boolean",
+      "fn": "output.out = input.boolean\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "css": {
+            "title": "CSS",
+            "type": "string",
+            "format": "css",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "CSS",
+      "ns": "data",
+      "name": "css",
+      "fn": "output.out = input.css\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "haml": {
+            "title": "haml",
+            "type": "string",
+            "format": "haml",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "haml",
+      "ns": "data",
+      "name": "haml",
+      "fn": "output.out = input.haml\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "handlebars": {
+            "title": "Handlebars",
+            "type": "string",
+            "format": "handlebars",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "Handlebars",
+      "ns": "data",
+      "name": "handlebars",
+      "fn": "output.out = input.handlebars\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "text": {
+            "title": "Text",
+            "type": "string",
+            "format": "text",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "Text",
+      "ns": "data",
+      "name": "text",
+      "fn": "output.out = input.text\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "ini": {
+            "title": "ini",
+            "type": "string",
+            "format": "ini",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "ini",
+      "ns": "data",
+      "name": "ini",
+      "fn": "output.out = input.ini\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "jade": {
+            "title": "Jade",
+            "type": "string",
+            "format": "jade",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "Jade",
+      "ns": "data",
+      "name": "jade",
+      "fn": "output.out = input.jade\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "json": {
+            "title": "JSON",
+            "type": "string",
+            "format": "json",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "JSON",
+      "ns": "data",
+      "name": "json",
+      "fn": "output.out = JSON.parse(input.json)\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "less": {
+            "title": "LESS",
+            "type": "string",
+            "format": "less",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "LESS",
+      "ns": "data",
+      "name": "less",
+      "fn": "output.out = input.less\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "markdown": {
+            "title": "Markdown",
+            "type": "string",
+            "format": "markdown",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "Markdown",
+      "ns": "data",
+      "name": "markdown",
+      "fn": "output.out = input.markdown\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "number": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
+      "description": "Number",
+      "ns": "data",
+      "name": "number",
+      "fn": "output.out = input.number\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "sql": {
+            "title": "SQL",
+            "type": "string",
+            "format": "sql",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "SQL",
+      "ns": "data",
+      "name": "sql",
+      "fn": "output.out = input.sql\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "string": {
+            "title": "String",
+            "type": "string",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "String",
+      "ns": "data",
+      "name": "string",
+      "fn": "output.out = input.string\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "svg": {
+            "title": "SVG",
+            "type": "string",
+            "format": "svg",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "SVG",
+      "ns": "data",
+      "name": "svg",
+      "fn": "output.out = input.svg\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "textile": {
+            "title": "Textile",
+            "type": "string",
+            "format": "textile",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "Textile",
+      "ns": "data",
+      "name": "textile",
+      "fn": "output.out = input.textile\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "xml": {
+            "title": "XML",
+            "type": "string",
+            "format": "xml",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "XML",
+      "ns": "data",
+      "name": "xml",
+      "fn": "output.out = input.xml\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "yaml": {
+            "title": "yaml",
+            "type": "string",
+            "format": "yaml",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "description": "yaml",
+      "ns": "data",
+      "name": "yaml",
+      "fn": "output.out = input.yaml\n"
+    }
+  ],
+  "twigs": []
+}
