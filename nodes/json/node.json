@@ -2,6 +2,9 @@
   "name": "json",
   "ns": "data",
   "description": "JSON",
+  "phrases": {
+   "active": "Creating JSON content"
+  },
   "ports": {
     "input": {
       "json": {

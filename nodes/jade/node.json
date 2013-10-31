@@ -2,6 +2,9 @@
   "name": "jade",
   "ns": "data",
   "description": "Jade",
+  "phrases": {
+   "active": "Creating Jade template"
+  },
   "ports": {
     "input": {
       "jade": {

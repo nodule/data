@@ -2,6 +2,9 @@
   "name": "number",
   "ns": "data",
   "description": "Number",
+  "phrases": {
+   "active": "Creating Number {{input.number}}"
+  },
   "ports": {
     "input": {
       "number": {

@@ -2,6 +2,9 @@
   "name": "string",
   "ns": "data",
   "description": "String",
+  "phrases": {
+    "active": "Creating string {{input.string}}"
+  },
   "ports": {
     "input": {
       "string": {

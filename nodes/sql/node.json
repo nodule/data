@@ -2,6 +2,9 @@
   "name": "sql",
   "ns": "data",
   "description": "SQL",
+  "phrases": {
+    "active": "Creating SQL"
+  },
   "ports": {
     "input": {
       "sql": {

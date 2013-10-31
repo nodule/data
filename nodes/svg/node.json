@@ -2,6 +2,9 @@
   "name": "svg",
   "ns": "data",
   "description": "SVG",
+  "phrases": {
+    "active": "Creating SVG content"
+  },
   "ports": {
     "input": {
       "svg": {

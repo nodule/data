@@ -2,6 +2,9 @@
   "name": "text",
   "ns": "data",
   "description": "Text",
+  "phrases": {
+   "active": "Creating Text"
+  },
   "ports": {
     "input": {
       "text": {

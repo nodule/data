@@ -2,6 +2,9 @@
   "name": "less",
   "ns": "data",
   "description": "LESS",
+  "phrases": {
+   "active": "Creating LESS content"
+  },
   "ports": {
     "input": {
       "less": {

@@ -2,6 +2,9 @@
   "name": "css",
   "ns": "data",
   "description": "CSS",
+  "phrases": {
+    "active": "Creating CSS"
+  },
   "ports": {
     "input": {
       "css": {

@@ -2,6 +2,9 @@
   "name": "boolean",
   "ns": "data",
   "description": "Boolean",
+  "phrases": {
+    "active": "Creating boolean value {input.boolean}"
+  },
   "ports": {
     "input": {
       "boolean": {

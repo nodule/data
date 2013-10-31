@@ -2,6 +2,9 @@
   "name": "textile",
   "ns": "data",
   "description": "Textile",
+  "phrases": {
+    "active": "Creating Textile content"
+  },
   "ports": {
     "input": {
       "textile": {

@@ -2,6 +2,9 @@
   "name": "xml",
   "ns": "data",
   "description": "XML",
+  "phrases": {
+    "active": "Creating XML content"
+  },
   "ports": {
     "input": {
       "xml": {

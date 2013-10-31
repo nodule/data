@@ -2,6 +2,9 @@
   "name": "markdown",
   "ns": "data",
   "description": "Markdown",
+  "phrases": {
+   "active": "Creating Markdown template"
+  },
   "ports": {
     "input": {
       "markdown": {

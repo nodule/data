@@ -2,6 +2,9 @@
   "name": "haml",
   "ns": "data",
   "description": "haml",
+  "phrases": {
+    "active": "Creating HAML"
+  },
   "ports": {
     "input": {
       "haml": {

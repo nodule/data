@@ -23,6 +23,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating boolean value {input.boolean}"
+      },
       "description": "Boolean",
       "ns": "data",
       "name": "boolean",
@@ -44,6 +47,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating CSS"
       },
       "description": "CSS",
       "ns": "data",
@@ -67,6 +73,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating HAML"
+      },
       "description": "haml",
       "ns": "data",
       "name": "haml",
@@ -88,6 +97,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating Handlebars template"
       },
       "description": "Handlebars",
       "ns": "data",
@@ -111,6 +123,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating Text"
+      },
       "description": "Text",
       "ns": "data",
       "name": "text",
@@ -132,6 +147,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating ini content"
       },
       "description": "ini",
       "ns": "data",
@@ -155,6 +173,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating Jade template"
+      },
       "description": "Jade",
       "ns": "data",
       "name": "jade",
@@ -176,6 +197,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating JSON content"
       },
       "description": "JSON",
       "ns": "data",
@@ -199,6 +223,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating LESS content"
+      },
       "description": "LESS",
       "ns": "data",
       "name": "less",
@@ -221,6 +248,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating Markdown template"
+      },
       "description": "Markdown",
       "ns": "data",
       "name": "markdown",
@@ -241,6 +271,9 @@
             "type": "number"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating Number {{input.number}}"
       },
       "description": "Number",
       "ns": "data",
@@ -264,6 +297,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating SQL"
+      },
       "description": "SQL",
       "ns": "data",
       "name": "sql",
@@ -284,6 +320,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating string {{input.string}}"
       },
       "description": "String",
       "ns": "data",
@@ -307,6 +346,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating SVG content"
+      },
       "description": "SVG",
       "ns": "data",
       "name": "svg",
@@ -328,6 +370,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating Textile content"
       },
       "description": "Textile",
       "ns": "data",
@@ -351,6 +396,9 @@
           }
         }
       },
+      "phrases": {
+        "active": "Creating XML content"
+      },
       "description": "XML",
       "ns": "data",
       "name": "xml",
@@ -372,6 +420,9 @@
             "type": "string"
           }
         }
+      },
+      "phrases": {
+        "active": "Creating YAML content"
       },
       "description": "yaml",
       "ns": "data",

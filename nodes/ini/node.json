@@ -2,6 +2,9 @@
   "name": "ini",
   "ns": "data",
   "description": "ini",
+  "phrases": {
+   "active": "Creating ini content"
+  },
   "ports": {
     "input": {
       "ini": {

@@ -2,6 +2,9 @@
   "name": "yaml",
   "ns": "data",
   "description": "yaml",
+  "phrases": {
+    "active": "Creating YAML content"
+  },
   "ports": {
     "input": {
       "yaml": {
