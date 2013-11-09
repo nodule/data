@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/nodule/data.git"
   },
+  "dependencies": {
+    "dot-json": "0.x.x"
+  },
   "nodes": [
     {
       "ports": {
@@ -279,6 +282,40 @@
       "ns": "data",
       "name": "number",
       "fn": "output.out = input.number\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "object": {
+            "title": "Object",
+            "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
+            "type": "string",
+            "required": true
+          },
+          "path": {
+            "title": "Path",
+            "description": "Specify a path with . syntax (e.g. name.last )",
+            "type": "string",
+            "required": true
+          }
+        },
+        "output": {
+          "value": {
+            "title": "Value",
+            "type": "any"
+          }
+        }
+      },
+      "require": {
+        "dot-json": "0.x.x"
+      },
+      "phrases": {
+        "active": "Picking {input.path} from object"
+      },
+      "description": "Pick one value from an object",
+      "ns": "data",
+      "name": "pick",
+      "fn": "var DJ =  new dot_json;\noutput.value = DJ.pick(input.path, input.object)\n"
     },
     {
       "ports": {

@@ -1,0 +1,33 @@
+{
+  "name": "pick",
+  "ns": "data",
+  "description": "Pick one value from an object",
+  "phrases": {
+    "active": "Picking {input.path} from object"
+  },
+  "require": {
+    "dot-json": "0.x.x"
+  },
+  "ports": {
+    "input": {
+      "object": {
+        "title": "Object",
+        "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
+        "type": "string",
+        "required": true
+      },
+      "path": {
+        "title": "Path",
+        "description": "Specify a path with . syntax (e.g. name.last )",
+        "type": "string",
+        "required": true
+      }
+    },
+    "output": {
+      "value": {
+        "title": "Value",
+        "type": "any"
+      }
+    }
+  }
+}
