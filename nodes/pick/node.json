@@ -13,7 +13,7 @@
       "object": {
         "title": "Object",
         "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
-        "type": "string",
+        "type": "object",
         "required": true
       },
       "path": {
