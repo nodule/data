@@ -1,6 +1,7 @@
 {
   "name": "svg",
   "ns": "data",
+  "title": "SVG",
   "description": "SVG",
   "phrases": {
     "active": "Creating SVG content"

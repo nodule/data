@@ -1,6 +1,7 @@
 {
   "name": "sql",
   "ns": "data",
+  "title": "SQL",
   "description": "SQL",
   "phrases": {
     "active": "Creating SQL"

@@ -1,6 +1,7 @@
 {
   "name": "haml",
   "ns": "data",
+  "title": "HAML",
   "description": "haml",
   "phrases": {
     "active": "Creating HAML"

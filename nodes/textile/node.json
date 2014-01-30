@@ -1,6 +1,7 @@
 {
   "name": "textile",
   "ns": "data",
+  "title": "Textile",
   "description": "Textile",
   "phrases": {
     "active": "Creating Textile content"

@@ -1,6 +1,7 @@
 {
   "name": "less",
   "ns": "data",
+  "title": "LESS",
   "description": "LESS",
   "phrases": {
    "active": "Creating LESS content"

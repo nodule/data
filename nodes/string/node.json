@@ -1,6 +1,7 @@
 {
   "name": "string",
   "ns": "data",
+  "title": "String",
   "description": "String",
   "phrases": {
     "active": "Creating string {{input.string}}"

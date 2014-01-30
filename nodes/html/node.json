@@ -1,6 +1,7 @@
 {
   "name": "text",
   "ns": "data",
+  "title": "Text",
   "description": "Text",
   "phrases": {
    "active": "Creating Text"

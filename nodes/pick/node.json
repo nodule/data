@@ -1,6 +1,7 @@
 {
   "name": "pick",
   "ns": "data",
+  "title": "Pick",
   "description": "Pick one value from an object",
   "phrases": {
     "active": "Picking {input.path} from object"

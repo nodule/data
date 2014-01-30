@@ -1,6 +1,7 @@
 {
   "name": "xml",
   "ns": "data",
+  "title": "XML",
   "description": "XML",
   "phrases": {
     "active": "Creating XML content"

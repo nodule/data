@@ -1,6 +1,7 @@
 {
   "name": "jade",
   "ns": "data",
+  "title": "Jade",
   "description": "Jade",
   "phrases": {
    "active": "Creating Jade template"

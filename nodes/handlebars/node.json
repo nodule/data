@@ -1,6 +1,7 @@
 {
   "name": "handlebars",
   "ns": "data",
+  "title": "Handlebars",
  "description": "Handlebars",
  "phrases": {
    "active": "Creating Handlebars template"

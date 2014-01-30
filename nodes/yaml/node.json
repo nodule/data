@@ -1,6 +1,7 @@
 {
   "name": "yaml",
   "ns": "data",
+  "title": "YAML",
   "description": "yaml",
   "phrases": {
     "active": "Creating YAML content"

@@ -1,6 +1,7 @@
 {
   "name": "css",
   "ns": "data",
+  "title": "CSS",
   "description": "CSS",
   "phrases": {
     "active": "Creating CSS"

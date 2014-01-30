@@ -1,6 +1,7 @@
 {
   "name": "number",
   "ns": "data",
+  "title": "Number",
   "description": "Number",
   "phrases": {
    "active": "Creating Number {{input.number}}"

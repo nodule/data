@@ -1,6 +1,7 @@
 {
   "name": "boolean",
   "ns": "data",
+  "title": "Boolean",
   "description": "Boolean",
   "phrases": {
     "active": "Creating boolean value {input.boolean}"
