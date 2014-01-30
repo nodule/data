@@ -30,6 +30,7 @@
         "active": "Creating boolean value {input.boolean}"
       },
       "description": "Boolean",
+      "title": "Boolean",
       "ns": "data",
       "name": "boolean",
       "fn": "output.out = input.boolean\n"
@@ -55,6 +56,7 @@
         "active": "Creating CSS"
       },
       "description": "CSS",
+      "title": "CSS",
       "ns": "data",
       "name": "css",
       "fn": "output.out = input.css\n"
@@ -80,6 +82,7 @@
         "active": "Creating HAML"
       },
       "description": "haml",
+      "title": "HAML",
       "ns": "data",
       "name": "haml",
       "fn": "output.out = input.haml\n"
@@ -105,6 +108,7 @@
         "active": "Creating Handlebars template"
       },
       "description": "Handlebars",
+      "title": "Handlebars",
       "ns": "data",
       "name": "handlebars",
       "fn": "output.out = input.handlebars\n"
@@ -130,6 +134,7 @@
         "active": "Creating Text"
       },
       "description": "Text",
+      "title": "Text",
       "ns": "data",
       "name": "text",
       "fn": "output.out = input.text\n"
@@ -155,6 +160,7 @@
         "active": "Creating ini content"
       },
       "description": "ini",
+      "title": "ini",
       "ns": "data",
       "name": "ini",
       "fn": "output.out = input.ini\n"
@@ -180,6 +186,7 @@
         "active": "Creating Jade template"
       },
       "description": "Jade",
+      "title": "Jade",
       "ns": "data",
       "name": "jade",
       "fn": "output.out = input.jade\n"
@@ -205,6 +212,7 @@
         "active": "Creating JSON content"
       },
       "description": "JSON",
+      "title": "JSON",
       "ns": "data",
       "name": "json",
       "fn": "output.out = JSON.parse(input.json)\n"
@@ -230,6 +238,7 @@
         "active": "Creating LESS content"
       },
       "description": "LESS",
+      "title": "LESS",
       "ns": "data",
       "name": "less",
       "fn": "output.out = input.less\n"
@@ -255,6 +264,7 @@
         "active": "Creating Markdown template"
       },
       "description": "Markdown",
+      "title": "Markdown",
       "ns": "data",
       "name": "markdown",
       "fn": "output.out = input.markdown\n"
@@ -279,6 +289,7 @@
         "active": "Creating Number {{input.number}}"
       },
       "description": "Number",
+      "title": "Number",
       "ns": "data",
       "name": "number",
       "fn": "output.out = input.number\n"
@@ -313,9 +324,10 @@
         "active": "Picking {input.path} from object"
       },
       "description": "Pick one value from an object",
+      "title": "Pick",
       "ns": "data",
       "name": "pick",
-      "fn": "var DJ =  new dot_json;\noutput.value = DJ.pick(input.path, input.object)\n"
+      "fn": "var DJ = new dot_json;\noutput.value = DJ.pick(input.path, input.object)\n"
     },
     {
       "ports": {
@@ -338,6 +350,7 @@
         "active": "Creating SQL"
       },
       "description": "SQL",
+      "title": "SQL",
       "ns": "data",
       "name": "sql",
       "fn": "output.out = input.sql\n"
@@ -362,6 +375,7 @@
         "active": "Creating string {{input.string}}"
       },
       "description": "String",
+      "title": "String",
       "ns": "data",
       "name": "string",
       "fn": "output.out = input.string\n"
@@ -387,6 +401,7 @@
         "active": "Creating SVG content"
       },
       "description": "SVG",
+      "title": "SVG",
       "ns": "data",
       "name": "svg",
       "fn": "output.out = input.svg\n"
@@ -412,6 +427,7 @@
         "active": "Creating Textile content"
       },
       "description": "Textile",
+      "title": "Textile",
       "ns": "data",
       "name": "textile",
       "fn": "output.out = input.textile\n"
@@ -437,6 +453,7 @@
         "active": "Creating XML content"
       },
       "description": "XML",
+      "title": "XML",
       "ns": "data",
       "name": "xml",
       "fn": "output.out = input.xml\n"
@@ -462,6 +479,7 @@
         "active": "Creating YAML content"
       },
       "description": "yaml",
+      "title": "YAML",
       "ns": "data",
       "name": "yaml",
       "fn": "output.out = input.yaml\n"
