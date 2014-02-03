@@ -327,7 +327,7 @@
       "title": "Pick",
       "ns": "data",
       "name": "pick",
-      "fn": "var DJ = new dot_json;\noutput.value = DJ.pick(input.path, input.object)\n"
+      "fn": "var DJ = new dot_json;\nvar res = DJ.pick(input.path, input.object);\nif(typeof res !== 'undefined') output.value = res;\n"
     },
     {
       "ports": {

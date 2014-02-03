@@ -1,2 +1,3 @@
 var DJ = new dot_json;
-output.value = DJ.pick(input.path, input.object)
+var res = DJ.pick(input.path, input.object);
+if(typeof res !== 'undefined') output.value = res;
