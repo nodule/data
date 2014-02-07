@@ -1,1 +1,1 @@
-output.out = input.jade
+output.out = input.in

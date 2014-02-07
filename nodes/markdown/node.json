@@ -7,7 +7,7 @@
    "active": "Creating Markdown template"
   },
   "ports": {
-    "input": {
+    "in": {
       "markdown": {
         "title": "Markdown",
         "type": "string",

@@ -1,1 +1,1 @@
-output.out = input.xml
+output.out = input.in

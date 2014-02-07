@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "string": {
+      "in": {
         "title": "String",
         "type": "string",
         "required": true

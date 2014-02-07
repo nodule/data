@@ -1,1 +1,1 @@
-output.out = input.haml
+output.out = input.in

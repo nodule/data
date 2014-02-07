@@ -8,7 +8,7 @@
  },
   "ports": {
     "input": {
-      "handlebars": {
+      "in": {
         "title": "Handlebars",
         "type": "string",
         "format": "handlebars",

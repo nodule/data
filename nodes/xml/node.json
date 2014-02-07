@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "xml": {
+      "in": {
         "title": "XML",
         "type": "string",
         "format": "xml",

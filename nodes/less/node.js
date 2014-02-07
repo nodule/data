@@ -1,1 +1,1 @@
-output.out = input.less
+output.out = input.in

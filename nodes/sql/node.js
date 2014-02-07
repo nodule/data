@@ -1,1 +1,1 @@
-output.out = input.sql
+output.out = input.in

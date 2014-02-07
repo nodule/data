@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "css": {
+      "in": {
         "title": "CSS",
         "type": "string",
         "format": "css",

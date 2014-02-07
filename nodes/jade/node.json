@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "jade": {
+      "in": {
         "title": "Jade",
         "type": "string",
         "format": "jade",

@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "less": {
+      "in": {
         "title": "LESS",
         "type": "string",
         "format": "less",

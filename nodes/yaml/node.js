@@ -1,1 +1,1 @@
-output.out = input.yaml
+output.out = input.in

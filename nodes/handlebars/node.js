@@ -1,1 +1,1 @@
-output.out = input.handlebars
+output.out = input.in

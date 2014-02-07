@@ -1,1 +1,1 @@
-output.out = input.number
+output.out = input.in

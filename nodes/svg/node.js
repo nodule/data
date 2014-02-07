@@ -1,1 +1,1 @@
-output.out = input.svg
+output.out = input.in

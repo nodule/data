@@ -1,1 +1,1 @@
-output.out = input.text
+output.out = input.in

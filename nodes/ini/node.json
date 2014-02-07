@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "ini": {
+      "in": {
         "title": "ini",
         "type": "string",
         "format": "ini",

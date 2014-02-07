@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "number": {
+      "in": {
         "title": "Number",
         "type": "number",
         "required": true

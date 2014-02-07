@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "textile": {
+      "in": {
         "title": "Textile",
         "type": "string",
         "format": "textile",

@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "json": {
+      "in": {
         "title": "JSON",
         "type": "string",
         "format": "json",

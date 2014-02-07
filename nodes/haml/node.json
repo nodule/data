@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "haml": {
+      "in": {
         "title": "haml",
         "type": "string",
         "format": "haml",

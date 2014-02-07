@@ -1,1 +1,1 @@
-output.out = input.textile
+output.out = input.in

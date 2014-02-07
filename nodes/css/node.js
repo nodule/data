@@ -1,1 +1,1 @@
-output.out = input.css
+output.out = input.in

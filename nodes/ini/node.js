@@ -1,1 +1,1 @@
-output.out = input.ini
+output.out = input.in

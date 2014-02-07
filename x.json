@@ -13,7 +13,7 @@
     {
       "ports": {
         "input": {
-          "boolean": {
+          "in": {
             "title": "Boolean",
             "type": "boolean",
             "required": true
@@ -33,12 +33,12 @@
       "title": "Boolean",
       "ns": "data",
       "name": "boolean",
-      "fn": "output.out = input.boolean\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "css": {
+          "in": {
             "title": "CSS",
             "type": "string",
             "format": "css",
@@ -59,12 +59,12 @@
       "title": "CSS",
       "ns": "data",
       "name": "css",
-      "fn": "output.out = input.css\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "haml": {
+          "in": {
             "title": "haml",
             "type": "string",
             "format": "haml",
@@ -85,12 +85,12 @@
       "title": "HAML",
       "ns": "data",
       "name": "haml",
-      "fn": "output.out = input.haml\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "handlebars": {
+          "in": {
             "title": "Handlebars",
             "type": "string",
             "format": "handlebars",
@@ -111,12 +111,12 @@
       "title": "Handlebars",
       "ns": "data",
       "name": "handlebars",
-      "fn": "output.out = input.handlebars\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "text": {
+          "in": {
             "title": "Text",
             "type": "string",
             "format": "text",
@@ -137,12 +137,12 @@
       "title": "Text",
       "ns": "data",
       "name": "text",
-      "fn": "output.out = input.text\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "ini": {
+          "in": {
             "title": "ini",
             "type": "string",
             "format": "ini",
@@ -163,12 +163,12 @@
       "title": "ini",
       "ns": "data",
       "name": "ini",
-      "fn": "output.out = input.ini\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "jade": {
+          "in": {
             "title": "Jade",
             "type": "string",
             "format": "jade",
@@ -189,12 +189,12 @@
       "title": "Jade",
       "ns": "data",
       "name": "jade",
-      "fn": "output.out = input.jade\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "json": {
+          "in": {
             "title": "JSON",
             "type": "string",
             "format": "json",
@@ -215,12 +215,12 @@
       "title": "JSON",
       "ns": "data",
       "name": "json",
-      "fn": "output.out = JSON.parse(input.json)\n"
+      "fn": "output.out = JSON.parse(input.in)\n"
     },
     {
       "ports": {
         "input": {
-          "less": {
+          "in": {
             "title": "LESS",
             "type": "string",
             "format": "less",
@@ -241,11 +241,11 @@
       "title": "LESS",
       "ns": "data",
       "name": "less",
-      "fn": "output.out = input.less\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
-        "input": {
+        "in": {
           "markdown": {
             "title": "Markdown",
             "type": "string",
@@ -267,12 +267,12 @@
       "title": "Markdown",
       "ns": "data",
       "name": "markdown",
-      "fn": "output.out = input.markdown\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "number": {
+          "in": {
             "title": "Number",
             "type": "number",
             "required": true
@@ -292,7 +292,7 @@
       "title": "Number",
       "ns": "data",
       "name": "number",
-      "fn": "output.out = input.number\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
@@ -332,7 +332,7 @@
     {
       "ports": {
         "input": {
-          "sql": {
+          "in": {
             "title": "SQL",
             "type": "string",
             "format": "sql",
@@ -353,12 +353,12 @@
       "title": "SQL",
       "ns": "data",
       "name": "sql",
-      "fn": "output.out = input.sql\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "string": {
+          "in": {
             "title": "String",
             "type": "string",
             "required": true
@@ -378,12 +378,12 @@
       "title": "String",
       "ns": "data",
       "name": "string",
-      "fn": "output.out = input.string\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "svg": {
+          "in": {
             "title": "SVG",
             "type": "string",
             "format": "svg",
@@ -404,12 +404,12 @@
       "title": "SVG",
       "ns": "data",
       "name": "svg",
-      "fn": "output.out = input.svg\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "textile": {
+          "in": {
             "title": "Textile",
             "type": "string",
             "format": "textile",
@@ -430,12 +430,12 @@
       "title": "Textile",
       "ns": "data",
       "name": "textile",
-      "fn": "output.out = input.textile\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "xml": {
+          "in": {
             "title": "XML",
             "type": "string",
             "format": "xml",
@@ -456,12 +456,12 @@
       "title": "XML",
       "ns": "data",
       "name": "xml",
-      "fn": "output.out = input.xml\n"
+      "fn": "output.out = input.in\n"
     },
     {
       "ports": {
         "input": {
-          "yaml": {
+          "in": {
             "title": "yaml",
             "type": "string",
             "format": "yaml",
@@ -482,7 +482,7 @@
       "title": "YAML",
       "ns": "data",
       "name": "yaml",
-      "fn": "output.out = input.yaml\n"
+      "fn": "output.out = input.in\n"
     }
   ],
   "twigs": []

@@ -1,1 +1,1 @@
-output.out = input.boolean
+output.out = input.in

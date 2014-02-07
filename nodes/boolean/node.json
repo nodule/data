@@ -8,7 +8,7 @@
   },
   "ports": {
     "input": {
-      "boolean": {
+      "in": {
         "title": "Boolean",
         "type": "boolean",
         "required": true

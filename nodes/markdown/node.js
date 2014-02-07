@@ -1,1 +1,1 @@
-output.out = input.markdown
+output.out = input.in
