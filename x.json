@@ -297,6 +297,32 @@
     {
       "ports": {
         "input": {
+          "in": {
+            "title": "Password",
+            "type": "string",
+            "format": "password",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "password"
+          }
+        }
+      },
+      "phrases": {
+        "active": "Creating password object"
+      },
+      "description": "Creates a password object",
+      "title": "Password",
+      "ns": "data",
+      "name": "password",
+      "fn": "/* simple prototype to distinct passwords from strings\n * Not to collect passwords, but to warn.. :)\n * */\nfunction password(pass) {\n  this.pass = pass;\n};\n\npassword.prototype.toString = function passwordToString() {\n  return this.pass;\n};\n\noutput.out = new password(input.in);\n"
+    },
+    {
+      "ports": {
+        "input": {
           "object": {
             "title": "Object",
             "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",

@@ -1,0 +1,25 @@
+{
+  "name": "password",
+  "ns": "data",
+  "title": "Password",
+  "description": "Creates a password object",
+  "phrases": {
+   "active": "Creating password object"
+  },
+  "ports": {
+    "input": {
+      "in": {
+        "title": "Password",
+        "type": "string",
+        "format": "password",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "password"
+      }
+    }
+  }
+}
