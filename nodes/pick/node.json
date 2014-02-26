@@ -7,7 +7,7 @@
     "active": "Picking {input.path} from object"
   },
   "require": {
-    "dot-json": "0.x.x"
+    "dot-object": "0.x.x"
   },
   "ports": {
     "input": {
