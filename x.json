@@ -386,7 +386,8 @@
         "input": {
           "in": {
             "title": "String",
-            "type": "string",
+            "type": "any",
+            "async": true,
             "required": true
           }
         },
@@ -401,10 +402,11 @@
         "active": "Creating string {{input.string}}"
       },
       "description": "String",
+      "async": true,
       "title": "String",
       "ns": "data",
       "name": "string",
-      "fn": "output.out = input.in\n"
+      "fn": "on.input.in = function() {\n  cb( { out: input.in.toString() });\n};\n"
     },
     {
       "ports": {
