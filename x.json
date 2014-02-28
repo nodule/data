@@ -406,7 +406,7 @@
       "title": "String",
       "ns": "data",
       "name": "string",
-      "fn": "on.input.in = function() {\n  cb( { out: input.in.toString() });\n};\n"
+      "fn": "on.input.in = function() {\n  cb( { out: typeof input.in === null ? 'null' : input.in.toString() });\n};\n"
     },
     {
       "ports": {
