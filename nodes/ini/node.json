@@ -6,6 +6,9 @@
   "phrases": {
    "active": "Creating ini content"
   },
+  "require": {
+   "ini": "1.x.x"
+  },
   "ports": {
     "input": {
       "in": {
@@ -18,7 +21,7 @@
     "output": {
       "out": {
         "title": "out",
-        "type": "string"
+        "type": "object"
       }
     }
   }

@@ -6,6 +6,9 @@
   "phrases": {
     "active": "Creating YAML content"
   },
+  "require": {
+    "yaml": "0.x.x"
+  },
   "ports": {
     "input": {
       "in": {

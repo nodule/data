@@ -1,1 +1,1 @@
-output.out = input.in
+output.out = yaml.eval(input.in)

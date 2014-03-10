@@ -7,7 +7,9 @@
     "url": "https://github.com/nodule/data.git"
   },
   "dependencies": {
-    "dot-object": "0.x.x"
+    "dot-object": "0.x.x",
+    "ini": "1.x.x",
+    "yaml": "~0.2.3"
   },
   "nodes": [
     {
@@ -152,9 +154,12 @@
         "output": {
           "out": {
             "title": "out",
-            "type": "string"
+            "type": "object"
           }
         }
+      },
+      "require": {
+        "ini": "1.x.x"
       },
       "phrases": {
         "active": "Creating ini content"
@@ -163,7 +168,7 @@
       "title": "ini",
       "ns": "data",
       "name": "ini",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = ini.parse(input.in)\n"
     },
     {
       "ports": {
@@ -503,6 +508,9 @@
           }
         }
       },
+      "require": {
+        "yaml": "0.x.x"
+      },
       "phrases": {
         "active": "Creating YAML content"
       },
@@ -510,7 +518,7 @@
       "title": "YAML",
       "ns": "data",
       "name": "yaml",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = yaml.eval(input.in)\n"
     }
   ],
   "twigs": []

@@ -16,7 +16,9 @@
     "test": "chit -r"
   },
   "dependencies": {
-   "dot-object": "0.x.x"
+    "dot-object": "0.x.x",
+    "ini": "1.x.x",
+    "yaml": "~0.2.3"
   },
   "devDependencies": {
     "chit": "0.x.x"
