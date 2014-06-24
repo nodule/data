@@ -4,7 +4,7 @@
   "title": "Pick",
   "description": "Pick one value from an object",
   "phrases": {
-    "active": "Picking {input.path} from object"
+    "active": "Picking {{input.path}} from object"
   },
   "require": {
     "dot-object": "0.x.x"

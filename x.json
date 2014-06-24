@@ -352,7 +352,7 @@
         "dot-object": "0.x.x"
       },
       "phrases": {
-        "active": "Picking {input.path} from object"
+        "active": "Picking {{input.path}} from object"
       },
       "description": "Pick one value from an object",
       "title": "Pick",
