@@ -6,9 +6,6 @@
   "phrases": {
     "active": "Picking {{input.path}} from object"
   },
-  "require": {
-    "dot-object": "0.x.x"
-  },
   "ports": {
     "input": {
       "object": {
@@ -29,6 +26,11 @@
         "title": "Value",
         "type": "any"
       }
+    }
+  },
+  "dependencies": {
+    "npm": {
+      "dot-object": "0.x.x"
     }
   }
 }

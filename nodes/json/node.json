@@ -4,7 +4,7 @@
   "title": "JSON",
   "description": "JSON",
   "phrases": {
-   "active": "Creating JSON content"
+    "active": "Creating JSON content"
   },
   "ports": {
     "input": {

@@ -4,7 +4,7 @@
   "title": "Text",
   "description": "Text",
   "phrases": {
-   "active": "Creating Text"
+    "active": "Creating Text"
   },
   "ports": {
     "input": {

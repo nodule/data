@@ -4,7 +4,7 @@
   "title": "Number",
   "description": "Number",
   "phrases": {
-   "active": "Creating Number {{input.number}}"
+    "active": "Creating Number {{input.number}}"
   },
   "ports": {
     "input": {

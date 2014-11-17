@@ -4,10 +4,7 @@
   "title": "ini",
   "description": "ini",
   "phrases": {
-   "active": "Creating ini content"
-  },
-  "require": {
-   "ini": "1.x.x"
+    "active": "Creating ini content"
   },
   "ports": {
     "input": {
@@ -23,6 +20,11 @@
         "title": "out",
         "type": "object"
       }
+    }
+  },
+  "dependencies": {
+    "npm": {
+      "ini": "1.x.x"
     }
   }
 }

@@ -2,10 +2,10 @@
   "name": "handlebars",
   "ns": "data",
   "title": "Handlebars",
- "description": "Handlebars",
- "phrases": {
-   "active": "Creating Handlebars template"
- },
+  "description": "Handlebars",
+  "phrases": {
+    "active": "Creating Handlebars template"
+  },
   "ports": {
     "input": {
       "in": {
