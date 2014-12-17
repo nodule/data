@@ -1,5 +1,6 @@
 on.input.in = function(data) {
-  var res = dot_object.pick(input.path, data);
+  // dot_object api should be fixed..
+  var res = dot_object().pick(input.path, data);
   if(typeof res !== 'undefined') {
     output({out: res});
   } else {

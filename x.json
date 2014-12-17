@@ -367,7 +367,7 @@
       "title": "Pick",
       "ns": "data",
       "name": "pick",
-      "fn": "on.input.in = function(data) {\n  var res = dot_object.pick(input.path, data);\n  if(typeof res !== 'undefined') {\n    output({out: res});\n  } else {\n    output({error: Error(input.path + ' not found')});\n  }\n};\n"
+      "fn": "on.input.in = function(data) {\n  // dot_object api should be fixed..\n  var res = dot_object().pick(input.path, data);\n  if(typeof res !== 'undefined') {\n    output({out: res});\n  } else {\n    output({error: Error(input.path + ' not found')});\n  }\n};\n"
     },
     {
       "ports": {
