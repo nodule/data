@@ -2,17 +2,18 @@
   "name": "pick",
   "ns": "data",
   "title": "Pick",
+  "async": true,
   "description": "Pick one value from an object",
   "phrases": {
     "active": "Picking {{input.path}} from object"
   },
   "ports": {
     "input": {
-      "object": {
+      "in": {
         "title": "Object",
         "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
         "type": "object",
-        "required": true
+        "async": true
       },
       "path": {
         "title": "Path",
@@ -22,9 +23,13 @@
       }
     },
     "output": {
-      "value": {
-        "title": "Value",
+      "out": {
+        "title": "Output",
         "type": "any"
+      },
+      "error": {
+        "title": "Error",
+        "type": "Error"
       }
     }
   },

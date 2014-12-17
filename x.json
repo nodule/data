@@ -335,11 +335,11 @@
       },
       "ports": {
         "input": {
-          "object": {
+          "in": {
             "title": "Object",
             "description": "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
             "type": "object",
-            "required": true
+            "async": true
           },
           "path": {
             "title": "Path",
@@ -349,9 +349,13 @@
           }
         },
         "output": {
-          "value": {
-            "title": "Value",
+          "out": {
+            "title": "Output",
             "type": "any"
+          },
+          "error": {
+            "title": "Error",
+            "type": "Error"
           }
         }
       },
@@ -359,10 +363,11 @@
         "active": "Picking {{input.path}} from object"
       },
       "description": "Pick one value from an object",
+      "async": true,
       "title": "Pick",
       "ns": "data",
       "name": "pick",
-      "fn": "var DJ = new dot_object;\nvar res = DJ.pick(input.path, input.object);\nif(typeof res !== 'undefined') output.value = res;\n"
+      "fn": "on.input.in = function(data) {\n  var res = dot_object.pick(input.path, data);\n  if(typeof res !== 'undefined') {\n    output({out: res});\n  } else {\n    output({error: Error(input.path + ' not found')});\n  }\n};\n"
     },
     {
       "ports": {
