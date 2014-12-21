@@ -21,7 +21,7 @@ module.exports = {
       }
     }
   },
-  fn: function boolean(input, output, state, done, cb, on) {
+  fn: function _boolean(input, output, state, done, cb, on) {
     var r = function() {
       output.out = input.in
     }.call(this);
