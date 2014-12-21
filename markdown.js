@@ -7,12 +7,14 @@ module.exports = {
     active: "Creating Markdown template"
   },
   ports: {
-    "in": {
-      markdown: {
-        title: "Markdown",
-        type: "string",
-        format: "markdown",
-        required: true
+    input: {
+      "in": {
+        markdown: {
+          title: "Markdown",
+          type: "string",
+          format: "markdown",
+          required: true
+        }
       }
     },
     output: {
@@ -20,8 +22,7 @@ module.exports = {
         title: "out",
         type: "string"
       }
-    },
-    input: {}
+    }
   },
   fn: function markdown(input, output, state, done, cb, on) {
     var r = function() {

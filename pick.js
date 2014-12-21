@@ -54,7 +54,7 @@ module.exports = {
   },
   dependencies: {
     npm: {
-      "dot-object": "0.x.x"
+      "dot-object": require('dot-object')
     }
   },
   state: {}

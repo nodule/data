@@ -1,35 +1,30 @@
 module.exports = {
-  name: "ini",
+  name: "text",
   ns: "data",
-  title: "ini",
-  description: "ini",
+  title: "Text",
+  description: "Text",
   phrases: {
-    active: "Creating ini content"
+    active: "Creating Text"
   },
   ports: {
     input: {
       "in": {
-        title: "ini",
+        title: "Text",
         type: "string",
-        format: "ini",
+        format: "text",
         required: true
       }
     },
     output: {
       out: {
         title: "out",
-        type: "object"
+        type: "string"
       }
     }
   },
-  dependencies: {
-    npm: {
-      ini: require('ini')
-    }
-  },
-  fn: function ini(input, output, state, done, cb, on, ini) {
+  fn: function text(input, output, state, done, cb, on) {
     var r = function() {
-      output.out = ini.parse(input.in)
+      output.out = input.in
     }.call(this);
     return {
       output: output,
