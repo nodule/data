@@ -116,32 +116,6 @@
       "fn": "output.out = input.in\n"
     },
     {
-      "ports": {
-        "input": {
-          "in": {
-            "title": "Text",
-            "type": "string",
-            "format": "text",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "string"
-          }
-        }
-      },
-      "phrases": {
-        "active": "Creating Text"
-      },
-      "description": "Text",
-      "title": "Text",
-      "ns": "data",
-      "name": "text",
-      "fn": "output.out = input.in\n"
-    },
-    {
       "dependencies": {
         "npm": {
           "ini": "1.x.x"
@@ -252,12 +226,14 @@
     },
     {
       "ports": {
-        "in": {
-          "markdown": {
-            "title": "Markdown",
-            "type": "string",
-            "format": "markdown",
-            "required": true
+        "input": {
+          "in": {
+            "markdown": {
+              "title": "Markdown",
+              "type": "string",
+              "format": "markdown",
+              "required": true
+            }
           }
         },
         "output": {
@@ -446,6 +422,32 @@
       "title": "SVG",
       "ns": "data",
       "name": "svg",
+      "fn": "output.out = input.in\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "in": {
+            "title": "Text",
+            "type": "string",
+            "format": "text",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "string"
+          }
+        }
+      },
+      "phrases": {
+        "active": "Creating Text"
+      },
+      "description": "Text",
+      "title": "Text",
+      "ns": "data",
+      "name": "text",
       "fn": "output.out = input.in\n"
     },
     {
