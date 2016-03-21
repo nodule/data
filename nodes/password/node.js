@@ -9,4 +9,4 @@ password.prototype.toString = function passwordToString() {
   return this.pass;
 };
 
-output.out = new password($.in);
+output.out = $.write('in', new password($.in));

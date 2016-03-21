@@ -1,1 +1,1 @@
-output.out = ini.parse($.in)
+output.out = $.write('in', ini.parse($.in))

@@ -1,1 +1,1 @@
-output.out = yaml.eval($.in)
+output.out = $.write('in', yaml.eval($.in))
