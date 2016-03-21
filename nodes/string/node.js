@@ -1,3 +1,3 @@
 on.input.in = function() {
-  output( { out: typeof input.in === null ? 'null' : input.in.toString() });
+  output( { out: typeof $.in === null ? 'null' : $.in.toString() });
 };

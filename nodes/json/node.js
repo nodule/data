@@ -1,1 +1,1 @@
-output.out = JSON.parse(input.in)
+output.out = JSON.parse($.in)

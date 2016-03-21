@@ -1,1 +1,1 @@
-output.out = ini.parse(input.in)
+output.out = ini.parse($.in)
