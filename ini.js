@@ -27,9 +27,9 @@ module.exports = {
       ini: require('ini')
     }
   },
-  fn: function ini(input, output, state, done, cb, on, ini) {
+  fn: function ini(input, $, output, state, done, cb, on, ini) {
     var r = function() {
-      output.out = ini.parse(input.in)
+      output.out = $.write('in', ini.parse($.in))
     }.call(this);
     return {
       output: output,

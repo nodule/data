@@ -35,7 +35,7 @@
       "title": "Boolean",
       "ns": "data",
       "name": "boolean",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -61,7 +61,7 @@
       "title": "CSS",
       "ns": "data",
       "name": "css",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -87,7 +87,7 @@
       "title": "HAML",
       "ns": "data",
       "name": "haml",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -113,7 +113,7 @@
       "title": "Handlebars",
       "ns": "data",
       "name": "handlebars",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "dependencies": {
@@ -144,7 +144,7 @@
       "title": "ini",
       "ns": "data",
       "name": "ini",
-      "fn": "output.out = ini.parse(input.in)\n"
+      "fn": "output.out = $.write('in', ini.parse($.in))\n"
     },
     {
       "ports": {
@@ -170,7 +170,7 @@
       "title": "Jade",
       "ns": "data",
       "name": "jade",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -196,7 +196,7 @@
       "title": "JSON",
       "ns": "data",
       "name": "json",
-      "fn": "output.out = JSON.parse(input.in)\n"
+      "fn": "output.out = $.write('in', JSON.parse($.in))\n"
     },
     {
       "ports": {
@@ -222,7 +222,7 @@
       "title": "LESS",
       "ns": "data",
       "name": "less",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -250,7 +250,7 @@
       "title": "Markdown",
       "ns": "data",
       "name": "markdown",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -275,7 +275,7 @@
       "title": "Number",
       "ns": "data",
       "name": "number",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -301,7 +301,7 @@
       "title": "Password",
       "ns": "data",
       "name": "password",
-      "fn": "/* simple prototype to distinct passwords from strings\n * Not to collect passwords, but to warn.. :)\n * */\nfunction password(pass) {\n  this.pass = pass;\n};\n\npassword.prototype.toString = function passwordToString() {\n  return this.pass;\n};\n\noutput.out = new password(input.in);\n"
+      "fn": "/* simple prototype to distinct passwords from strings\n * Not to collect passwords, but to warn.. :)\n * */\nfunction password(pass) {\n  this.pass = pass;\n};\n\npassword.prototype.toString = function passwordToString() {\n  return this.pass;\n};\n\noutput.out = $.write('in', new password($.in));\n"
     },
     {
       "dependencies": {
@@ -343,7 +343,7 @@
       "title": "Pick",
       "ns": "data",
       "name": "pick",
-      "fn": "on.input.in = function(data) {\n  // dot_object api should be fixed..\n  var res = dot_object().pick(input.path, data);\n  if(typeof res !== 'undefined') {\n    output({out: res});\n  } else {\n    output({error: Error(input.path + ' not found')});\n  }\n};\n"
+      "fn": "on.input.in = function() {\n  // dot_object api should be fixed..\n  var res = dot_object().pick($.path, $.in);\n  if(typeof res !== 'undefined') {\n    output({out: $.write('in', res)});\n  } else {\n    output({error: $.create(Error($.path + ' not found'))});\n  }\n};\n"
     },
     {
       "ports": {
@@ -369,7 +369,7 @@
       "title": "SQL",
       "ns": "data",
       "name": "sql",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -396,7 +396,7 @@
       "title": "String",
       "ns": "data",
       "name": "string",
-      "fn": "on.input.in = function() {\n  output( { out: typeof data === null ? 'null' : data.toString() });\n};\n"
+      "fn": "on.input.in = function() {\n  output( { out: $.write('in', typeof $.in === null ? 'null' : $.in.toString()) });\n};\n"
     },
     {
       "ports": {
@@ -422,7 +422,7 @@
       "title": "SVG",
       "ns": "data",
       "name": "svg",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -448,7 +448,7 @@
       "title": "Text",
       "ns": "data",
       "name": "text",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -474,7 +474,7 @@
       "title": "Textile",
       "ns": "data",
       "name": "textile",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "ports": {
@@ -500,7 +500,7 @@
       "title": "XML",
       "ns": "data",
       "name": "xml",
-      "fn": "output.out = input.in\n"
+      "fn": "output.out = $.get('in')\n"
     },
     {
       "dependencies": {
@@ -531,7 +531,7 @@
       "title": "YAML",
       "ns": "data",
       "name": "yaml",
-      "fn": "output.out = yaml.eval(input.in)\n"
+      "fn": "output.out = $.write('in', yaml.eval($.in))\n"
     }
   ],
   "twigs": []

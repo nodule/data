@@ -22,9 +22,9 @@ module.exports = {
       }
     }
   },
-  fn: function json(input, output, state, done, cb, on) {
+  fn: function json(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = JSON.parse(input.in)
+      output.out = $.write('in', JSON.parse($.in))
     }.call(this);
     return {
       output: output,

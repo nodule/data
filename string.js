@@ -17,7 +17,7 @@ module.exports = {
         fn: function __IN__(data, x, source, state, input, output) {
           var r = function() {
             output({
-              out: typeof data === null ? 'null' : data.toString()
+              out: $.write('in', typeof $.in === null ? 'null' : $.in.toString())
             });
           }.call(this);
           return {

@@ -22,7 +22,7 @@ module.exports = {
       }
     }
   },
-  fn: function password(input, output, state, done, cb, on) {
+  fn: function password(input, $, output, state, done, cb, on) {
     var r = function() {
       /* simple prototype to distinct passwords from strings
        * Not to collect passwords, but to warn.. :)
@@ -35,7 +35,7 @@ module.exports = {
         return this.pass;
       };
 
-      output.out = new password(input.in);
+      output.out = $.write('in', new password($.in));
     }.call(this);
     return {
       output: output,

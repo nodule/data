@@ -17,14 +17,14 @@ module.exports = {
         fn: function __IN__(data, x, source, state, input, output, dot_object) {
           var r = function() {
             // dot_object api should be fixed..
-            var res = dot_object().pick(input.path, data);
+            var res = dot_object().pick($.path, $.in);
             if (typeof res !== 'undefined') {
               output({
-                out: res
+                out: $.write('in', res)
               });
             } else {
               output({
-                error: Error(input.path + ' not found')
+                error: $.create(Error($.path + ' not found'))
               });
             }
           }.call(this);

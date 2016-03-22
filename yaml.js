@@ -27,9 +27,9 @@ module.exports = {
       yaml: require('yaml')
     }
   },
-  fn: function yaml(input, output, state, done, cb, on, yaml) {
+  fn: function yaml(input, $, output, state, done, cb, on, yaml) {
     var r = function() {
-      output.out = yaml.eval(input.in)
+      output.out = $.write('in', yaml.eval($.in))
     }.call(this);
     return {
       output: output,

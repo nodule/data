@@ -22,9 +22,9 @@ module.exports = {
       }
     }
   },
-  fn: function svg(input, output, state, done, cb, on) {
+  fn: function svg(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = input.in
+      output.out = $.get('in')
     }.call(this);
     return {
       output: output,
