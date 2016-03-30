@@ -14,7 +14,7 @@ module.exports = {
         description: "An Object, e.g { name: { first: 'John', last: 'Doe' } }",
         type: "object",
         async: true,
-        fn: function __IN__(data, x, source, state, input, output, dot_object) {
+        fn: function __IN__(data, source, state, input, $, output, dot_object) {
           var r = function() {
             // dot_object api should be fixed..
             var res = dot_object().pick($.path, $.in);
